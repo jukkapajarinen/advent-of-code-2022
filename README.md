@@ -2,7 +2,7 @@
 
 My Advent of Code solutions for the [year 2022](https://adventofcode.com/2022) written in JavaScript.
 
-- [day-01/main.js](./day-01/main.js) 🌟🌟 (Report Repair)
+- [day-01/main.js](./day-01/main.js) 🌟🌟 (Calorie Counting)
 - ~~day-02/main.js~~
 - ~~day-03/main.js~~
 - ~~day-04/main.js~~
