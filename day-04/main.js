@@ -6,8 +6,7 @@ const buffer = fs.readFileSync(`${path}/input.txt`);
 const rows = buffer.toString().trimEnd().split("\n");
 
 const range = (start, stop, step) => Array.from({ length: (stop - start) / step + 1 }, (_, i) => start + i * step);
-let fullIntersections = 0;
-let partialIntersections = 0;
+let [fullIntersections, partialIntersections] = [0, 0];
 
 rows.forEach(row => {
   let bounds1 = row.split(",")[0].split("-").map(x => Number(x));
